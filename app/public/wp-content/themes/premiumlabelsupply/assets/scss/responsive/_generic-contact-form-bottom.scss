@@ -1,0 +1,42 @@
+@media (max-width: 1199px) {
+  //pl-generic-contact-form-bottom
+  .pl-generic-contact-form-bottom{
+    .wp-block-cover{
+      padding: 75px 30px !important;
+    }
+    .wp-block-cover .wp-block-columns .wp-block-column p{
+      font-size: 35px !important;
+    }
+  }
+}
+
+@media (max-width: 781px) {
+  
+  //pl-generic-contact-form-bottom
+  .pl-generic-contact-form-bottom{
+    .wp-block-cover .wp-block-columns.pl-col-logo{
+      .wp-block-column:nth-child(1){
+        flex-basis: 40% !important;
+        .wp-block-image{
+          float: left !important;
+        }
+      }
+      .wp-block-column:nth-child(2){
+        flex-basis: 60% !important;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 575px) {
+  //pl-generic-contact-form-bottom
+  .pl-generic-contact-form-bottom{
+    .wp-block-cover{
+      padding: 75px 5px !important;
+      .pl-logo{
+        padding-right: 40px !important;
+      }
+    }
+  }
+}

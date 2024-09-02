@@ -1,0 +1,24 @@
+
+@media (max-width: 781px) {
+  .pl-cat-section{
+    .pl-header{
+      font-size: 29px !important;
+    }
+    .pl-col-left{
+      padding-right: 0 !important;
+      margin-bottom: 30px !important;
+    }
+    .pl-col-right{
+      padding-left: 0 !important;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .pl-cat-section{
+    padding: 55px 30px !important;
+    .pl-header{
+      font-size: 20px !important;
+    }
+  }
+}

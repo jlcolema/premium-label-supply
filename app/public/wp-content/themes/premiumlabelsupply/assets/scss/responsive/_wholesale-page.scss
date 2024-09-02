@@ -1,0 +1,72 @@
+@media (max-width: 991px) {
+  .pl-whosale-content{
+    .col-right{
+      .pl-header{
+        font-size: 34px !important;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 781px) {
+
+  .pl-whosale-content{
+    .wp-block-columns{
+      padding-top: 20px !important;
+      padding-bottom: 10px !important;
+    }
+    .col-left{
+      padding-right: 0 !important;
+      margin-bottom: 30px !important;
+    }
+    .col-right{
+      padding-left: 0 !important;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  .wholesale-products{
+    .pl-header{
+      font-size: 35px !important;
+    }
+    .wp-block-button .wp-block-button__link{
+      padding: 15px 30px !important;
+      font-size: 15px !important;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+
+  .pl-whosale-content{
+    .wp-block-columns{
+      padding-top: 10px !important;
+    }
+   
+
+    .col-right{
+      .pl-header{
+        font-size: 28px !important;
+      }
+      p{
+        font-size: 15px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 480px) {
+  
+  .wholesale-products{
+    .pl-header{
+      font-size: 30px !important;
+    }
+  }
+
+
+}

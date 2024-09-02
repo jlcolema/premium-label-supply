@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+  .pl-col-two-content-style-1{
+    padding: 50px 15px !important;
+    .col-content{
+      margin-bottom: 30px !important;
+      .wp-block-group {
+        padding-right: 0 !important;
+        text-align: center;
+        h2, p, .wp-block-buttons{
+          max-width: 100%;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+        .wp-block-button{
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .pl-col-two-content-style-1{
+    padding: 0 15px 50px 15px !important;
+   }
+}

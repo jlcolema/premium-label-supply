@@ -1,0 +1,32 @@
+.ks-row{
+  display: flex;
+  flex-wrap: wrap;
+  .ks-col-6{
+    flex: 0 0 50%;
+  }
+}
+
+.u-clear-both{
+  clear: both;
+}
+
+.u-d-flex{
+  display: flex;
+}
+
+.u-flex-align-center{
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.u-flex-align-left-center{
+  align-items: center !important;
+  justify-content: left !important;
+}
+
+.u-flex-align-right-center{
+  align-items: center !important;
+  justify-content: right !important;
+}
+
+

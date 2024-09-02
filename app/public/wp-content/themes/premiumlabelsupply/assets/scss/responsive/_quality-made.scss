@@ -1,0 +1,26 @@
+
+@media (max-width: 781px) {
+
+  .pl-quality-made,
+  .pl-cta-view-products{
+    .wp-block-columns{
+      .col-icon{
+        flex-basis: 33.33% !important;
+      }
+      .col-content{
+        padding-left: 0 !important;
+        margin-top: 30px;
+        &.col-with-cta{
+          text-align: center;
+          .wp-block-buttons .wp-block-button{
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+    } 
+  }
+
+
+}
+

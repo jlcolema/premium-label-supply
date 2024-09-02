@@ -1,0 +1,56 @@
+
+
+@media (max-width: 781px) {
+  .pl-col-two-content-right-1{
+    .pl-col-img{
+      margin-bottom: 30px;
+      .pl-img-1{
+        width: 100% !important;
+        max-width: 150px !important;
+      }
+      .pl-img-2{
+        width: 100% !important;
+        max-width: 250px !important;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+  .pl-col-two-content-right-1{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    .wp-block-columns{
+      padding: 40px 15px !important;
+    }
+    .pl-col-img{
+      margin-bottom: 30px;
+      .pl-img-1{
+        width: 100% !important;
+        max-width: 100px !important;
+      }
+      .pl-img-2{
+        width: 100% !important;
+        max-width: 200px !important;
+      }
+    }
+    .pl-col-content{
+      .pl-header{
+        font-size: 30px !important;
+      }
+      .pl-subheader{
+        font-size: 18px !important;
+        margin-bottom: 18px !important;
+        
+      }
+      .pl-desc{
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+      }
+      .pl-team{
+        font-size: 20px !important;
+      }
+    }
+  }
+}

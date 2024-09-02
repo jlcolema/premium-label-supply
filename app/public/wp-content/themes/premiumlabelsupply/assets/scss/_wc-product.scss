@@ -1,0 +1,333 @@
+/* DESKTOP */
+.woocommerce .flex-control-thumbs {
+  margin: 10px 0px 10px -5px !important; /* Thumbnails separation top and bottom */
+  width: 100% !important; /* Controls width of thumbnails container on desktop - Horizontally */
+display: flex;
+}
+/* Controls thumbnails width on desktop - vertically
+* Enable this ONLY for VERTICAL display
+*/ 
+ol.flex-control-nav.flex-control-thumbs li {
+width: 15% !important; 
+}
+/* Enable this ONLY for HORIZONTAL display */
+/*ol.flex-control-nav.flex-control-thumbs li {
+width: 18% !important; 
+}*/
+
+/* PHONES */
+@media (max-width:414px){
+ol.flex-control-nav.flex-control-thumbs li {
+  width: 18% !important; /* Controls thumbnails width on mobile - Horizontally */
+}
+}
+
+/* TABLETS */
+@media (min-width:568px) and (max-width:768px){
+/* Controls thumbnails container width on tablet - vertically
+ * Enable this ONLY for VERTICAL display */
+.woocommerce .flex-control-thumbs {
+    margin: 10px 0px 10px -5px !important; 
+    width: 15% !important;
+}
+/* Controls width of thumbnails container on tablet - horizontally
+ * Enable this ONLY for HORIZONTAL display */
+/*.woocommerce .flex-control-thumbs {
+    width: 70% !important; 
+}*/
+ol.flex-control-nav.flex-control-thumbs li {
+  width: 90% !important; /* Controls thumbnails image width on tablet - vertically */
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+/* Controls thumbnails container width on tablet - vertically
+ * Enable this ONLY for VERTICAL display */
+.woocommerce .flex-control-thumbs {
+    margin: 10px 0px 10px -5px !important; 
+    width: 12% !important;
+}
+/* Controls width of thumbnails container on tablet - horizontally
+ * Enable this ONLY for HORIZONTAL display */
+/*.woocommerce .flex-control-thumbs {
+    width: 70% !important; 
+}*/
+ol.flex-control-nav.flex-control-thumbs li {
+  width: 100% !important; /* Controls thumbnails image width on tablet - vertically */
+}
+}
+
+/* Functionality: Product page image thumbnails on left side
+* Date:  2021-03-10
+* Author: Rafael Azuaje
+* Disable this segment if you want to display horizontally
+*/
+@media (min-width:568px) {
+.woocommerce .flex-control-nav { 
+  position: absolute; 
+  top:-10px; 
+  left: 0px;
+}
+.flex-control-thumbs {
+  display: flex;
+  flex-direction: column;
+}
+}
+@media (min-width:568px) and (max-width:768px){
+.woocommerce .flex-viewport {
+  width: 86.5% !important;
+  left: 100px !important;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+.woocommerce .flex-viewport {
+  width: 87% !important;
+  left: 95px !important;
+}
+}
+@media (min-width:1025px){
+.woocommerce .flex-viewport {
+  width: 85% !important;
+  left: 80px !important;
+}	
+}
+
+.product_meta,
+.related.products {
+  display: none;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  margin: 0 0 4em;
+  padding: 0 30px;
+  font-size: .92em;
+  a{
+    color: #0d5ca8;
+  }
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  display: none;
+}
+
+.woocommerce div.product .product_title {
+  font-weight: 700;
+  color: #0D5CA8!important;
+  margin-bottom: 40px !important;
+}
+
+.woocommerce-product-details__short-description{
+  color: #333333 !important;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  ul{
+    padding-left: 15px;
+    li{
+      //margin-bottom: 5px;
+      margin-bottom: 0;
+    }
+  }
+  .woocommerce-product-details__short-description--readmore{
+    overflow: hidden;
+    height: 194px;
+  }
+  
+  .woocommerce-product-details__short-description--readmore-link{
+    margin-bottom: 40px;
+    a{
+      color: #29527c;
+      text-decoration: underline;
+    }
+  }
+
+  .woocommerce-product-details__short-description--freeshipping{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: left !important;
+    margin-bottom: 40px;
+    display: block;
+    font-size: 27px;
+    font-family: 'Karla',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #0096A3!important;  
+    img{
+      width: 75px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.woocommerce div.product form.cart div.quantity{
+  .qty-label{
+    margin-right: 5px;
+    font-weight: 700;
+  }
+}
+
+.woocommerce div.product form.cart .button{
+  width: 100%;
+}
+
+.woocommerce div.product form.cart .variations {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 30px 0;
+  margin-bottom: 2.5em;
+}
+
+.yith-wcwl-add-to-wishlist {
+  margin-top: 3em;
+  a{
+    color: #4b83b3;
+    letter-spacing: 1px;
+  }
+}
+
+.ks-row.wc-productabs{
+  margin-top: 50px;
+  margin-bottom: 0;
+  .ks-feature-img{
+    position: relative;
+    img{
+      position: relative;
+      z-index: 1;
+
+    }
+    .ks-img-wrap{
+      padding: 100px 0 100px 100px;
+    }
+    .ks-img-bg{
+      width: 90%;
+      height: 100%;
+      background-color: #29527c;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+    }
+  }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, 
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+  border: 0px solid #d3ced2;
+  box-shadow: 0px 0px 0 #ebe9eb !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+  border-bottom: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  background: #fff;
+  color: #515151;
+  z-index: 2;
+  border: 0;
+  border-bottom: 3px solid #29527c;
+  padding: 0 5px;
+  a{
+    color: #29527c!important;
+  }
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs{
+  padding: 0;
+  li {
+    background: #fff;
+    color: rgba(80,88,109,0.8)!important;
+    border: 0;
+    padding: 0 5px;
+    margin-right: 20px;
+    a{
+      font-weight: 500 !important;
+      font-size: 25px;
+    }
+  }
+}
+
+.woocommerce-tabs.wc-tabs-wrapper{
+  max-width: 500px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+.woocommerce-Tabs-panel.panel.entry-content.wc-tab{
+  color: #333333 !important;
+  font-size: 18px;
+  padding-top: 20px !important;
+  ul{
+    padding-left: 22px;
+    li{
+      margin-bottom: 10px;
+    }
+  }
+  p{
+    letter-spacing: 1px;
+    line-height: 1.5em;
+  }
+}
+
+//.wp-container-18.wp-container-18 > .alignwide,
+.woocommerce.single-product{
+  .wp-block-group .content-area.alignwide{
+    max-width: 100%;
+    .woocommerce-breadcrumb{
+      margin-bottom: 40px !important;
+    }
+    .woocommerce-breadcrumb,
+    .woocommerce-notices-wrapper{
+      max-width: 1200px;
+      margin: auto;
+    }
+    .woocommerce--top-layout{
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 30px;
+    }
+  }
+}
+
+//Wishlist
+.shop_table.cart.wishlist_table.wishlist_view {
+  width: 100% !important;
+  .product-add-to-cart a{
+    display: block !important;
+  }
+  a.remove{
+    padding: 10px !important;
+  }
+}
+
+
+// category page
+.tax-product_cat.term-label-sheets,
+.tax-product_cat.term-thermal-labels{
+  .woocommerce-ordering {
+    margin: 0 0 2em;
+    select{
+      background-color: #ececec;
+      border: none;
+      border-radius: 3px;
+      border-width: 0;
+      color: #666 !important;
+      font-size: 12px;
+      padding: 10px 8px;
+      font-weight: 500;
+    }
+  }
+  ul.products li.product .price {
+    display: none;
+  }
+  ul.products li.product .button {
+    display: none;
+  }
+
+  @media( max-width: 1456px ){
+    .product-subtitle_wrap,
+    main{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
+}

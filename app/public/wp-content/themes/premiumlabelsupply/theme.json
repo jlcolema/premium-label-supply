@@ -1,0 +1,158 @@
+{
+    "version": 2,
+    "settings": {
+        "custom": {
+            "baseFont": 16
+        },
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "radius": true
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "1720px",
+            "wideSize": "1720px"
+        },
+        "spacing": {
+            "blockGap": false,
+            "margin": true,
+            "padding": true,
+            "customSpacingSize": true,
+            "spacingScale": {
+                "operator": "*",
+                "increment": 1.5,
+                "steps": 7,
+                "mediumStep": 1.5,
+                "unit": "rem"
+            },
+            "spacingSizes": []
+        },
+        "appearanceTools": false,
+        "border": {
+            "color": false,
+            "radius": false,
+            "style": false,
+            "width": false
+        },
+        "typography": {
+            "customFontSize": true,
+            "dropCap": true,
+            "fontFamilies": [
+                {
+                    "fontFamily":"Karla,Helvetica,Arial,Lucida,sans-serif",
+                    "slug": "karla",
+                    "name": "Karla"
+                },
+                {
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+                    "slug": "system-font",
+                    "name": "System Font"
+                },
+                {
+                    "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+                    "slug": "helvetica-arial",
+                    "name": "Helvetica or Arial"
+                },
+                {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif",
+                    "slug": "montserrat",
+                    "name": "Montserrat"
+                }               
+            ],
+            "fontSizes": [
+                {
+                    "slug": "big",
+                    "size": 32,
+                    "name": "Big"
+                },
+                {
+                    "slug": "x-large",
+                    "size": 46,
+                    "name": "Large"
+                }
+            ],
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": true,
+            "lineHeight": true,
+            "textDecoration": true,
+            "textTransform": true
+        },
+        "elements": {
+            "link": {
+                "border": {},
+                "color": {},
+                "spacing": {},
+                "typography": {
+                    "fontStyle": true,
+                    "fontWeight": true,
+                    "letterSpacing": true,
+                    "lineHeight": false,
+                    "textDecoration": true,
+                    "textTransform": true
+                }
+            }
+        },
+        "color": {
+            "background": true,
+            "custom": true,
+            "customDuotone": true,
+            "customGradient": true,
+            "defaultGradients": true,
+            "defaultPalette": true,
+            "duotone": [],
+            "gradients": [],
+            "link": true,
+            "palette": [],
+            "text": true
+        }
+    },
+    "styles": {
+        "spacing": {
+            "blockGap": "0"
+        },
+        "typography": {
+            "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif",
+            "lineHeight": 1
+        },
+        "elements": {
+            "link": {
+                "typography": {
+                    "textDecoration": "none"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontFamily": "Montserrat,Helvetica,Arial,Lucida,sans-serif"
+                }
+            }
+        }
+    }
+ }

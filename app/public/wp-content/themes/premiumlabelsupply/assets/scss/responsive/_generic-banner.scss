@@ -1,0 +1,51 @@
+
+.pl-generic-banner{
+  .wp-block-cover{
+    h2.wp-block-post-title{
+      font-size: 84px !important;
+    }
+  }  
+}
+
+
+@media (max-width: 1199px) {
+  .pl-generic-banner{
+    .wp-block-cover{
+      padding-right: 30px !important;
+      padding-left: 30px !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .pl-generic-banner{
+    .wp-block-cover{
+      min-height: 350px !important;
+     .pl-header,
+     h2.wp-block-post-title{
+      font-size: 60px !important;
+     }
+     .pl-subheader{
+      font-size: 20px !important;
+      margin-bottom: 0;
+     }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .pl-generic-banner{
+    .wp-block-cover{
+      min-height: 250px !important;
+     .pl-header,
+     h2.wp-block-post-title{
+      font-size: 50px !important;
+      text-align: center;
+     }
+     .pl-subheader{
+      font-size: 18px !important;
+      text-align: center;
+     }
+    }
+  }
+}

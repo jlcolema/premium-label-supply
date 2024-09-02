@@ -1,0 +1,57 @@
+body.template-template-obxtemplates .article-banner{
+    background:white !important;
+  }
+  
+  .ltc-title{
+    font-size:40px;
+    color:#0D5CA8;
+    margin-bottom:15px;
+  }
+  
+  .ltc-detail{
+    font-size:20px;
+    color:#333;
+    font-family:Montserrat,Helvetica,Arial,Lucida,sans-serif;
+    font-weight:600;
+    padding-bottom:15px;
+    border-bottom:1px solid #e5e5e5;
+    margin-bottom:30px;
+  }
+  
+  .ltc-description{
+      line-height:26px;
+  }
+  
+  #label-template-content > a.button{
+    width:100%;
+    height:48px;
+    text-align:center;
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:15px;
+    margin-bottom:15px;
+    display:block;
+      line-height:48px;
+  }
+  #label-template-content a.ltc-design{background-color:#4995A2;}
+  #label-template-content a.ltc-word{background-color:#0D5CA8;}
+  #label-template-content a.ltc-pdf{background-color:#9C3B2B;}
+  #label-template-content a.needhelp{
+    color:#0D5CA8;
+    font-weight:400;
+    text-decoration:none;
+  }
+  #label-template-content a.needhelp:hover{
+    text-decoration:underline;
+    margin-top:15px;
+  }
+  p.faux-h5{
+    color:#333333;
+    font-size:18px;
+    font-weight:600;
+    padding-bottom:15px;
+    border-bottom:1px solid #e5e5e5;
+    margin-bottom:20px;
+      margin-top:30px;
+  }

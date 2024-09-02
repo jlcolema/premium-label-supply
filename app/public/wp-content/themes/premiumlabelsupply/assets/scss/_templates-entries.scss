@@ -1,0 +1,90 @@
+.templates-entries{
+
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  .wp-block-columns{
+    width: 100%;
+  }
+
+  .wp-block-image{
+    img{
+      max-width: 300px;
+      margin-bottom: 8px;
+    }
+  }
+
+  .wp-element-caption{
+    font-weight: 700;
+    font-size: 30px;
+    color: #0D5CA8!important;
+    margin: 0 0 10px 0;
+  }
+
+  &__size{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000!important;     
+  }
+
+  &__info{
+    width: 100%;
+    max-width: 249px !important;
+    padding: 5px !important;
+    background-color:#f4f4f4;
+    margin-top:2px;
+    font-size:13px
+  }
+
+  &__download_pdf{
+    text-align: center;
+    a{
+      display: none;
+    }
+    .wp-block-file__button{
+      display: inline-block;      
+      border-radius: 0;
+      font-size: 15px;
+      font-weight: 500;
+      width: 100%;
+      max-width: 258px;
+      margin-top: 15px;
+      margin-left: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .wp-block-buttons{
+    margin-top: 15px;
+    text-transform: uppercase;
+    .wp-block-button{
+      width: 100%;
+      max-width: 258px;
+    }
+    .wp-block-button__link{
+      font-size: 15px;
+      font-weight: 500;
+      width: 100%;
+    }
+  }
+
+  .templates-entries__item{
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 781px ) {
+    .templates-entries__item{
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+.templates-entries-separator{
+  height: 4px;
+}

@@ -1,0 +1,26 @@
+@media (max-width: 781px) {
+  .pl-trending-shipping-labels{
+    padding-top: 70px !important;
+    .pl-header{
+      font-size: 30px !important;
+    }
+    .wc-block-grid__products{
+      .wc-block-grid__product{
+        flex: 1 0 50%;
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .pl-trending-shipping-labels{
+    .wc-block-grid__products{
+      .wc-block-grid__product{
+        flex: 1 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+

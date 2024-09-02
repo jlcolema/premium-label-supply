@@ -1,0 +1,15 @@
+.u-text-slider{
+  .sa_hover_container{
+    p{
+      margin: 0 !important;
+    }  
+  } 
+
+  .white .sa_owl_theme .owl-nav .owl-prev,
+  .white .sa_owl_theme .owl-nav .owl-next {
+    background-color: rgba(0,0,0,0) !important;
+    width: 10px !important;
+    background-size: contain !important;
+  }
+
+}
